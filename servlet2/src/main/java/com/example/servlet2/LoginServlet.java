@@ -12,7 +12,6 @@ import javax.servlet.http.HttpSession;
 
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
 
 	// 로그인 화면을 보여준다.
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
